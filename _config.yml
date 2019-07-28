@@ -16,15 +16,15 @@ baseurl:          '/ppp/'
 # Navigation
 navigation:
 - text: About
-  url: /about/
+  url: /ppp/about/
 - text: Resume
-  url: /resume/
+  url: /ppp/resume/
 - text: Blog
-  url: /blog/
+  url: /ppp/blog/
 - text: Tags
-  url: /tags/
+  url: /ppp/tags/
 - text: Archive
-  url : /archive/
+  url : /ppp/archive/
 
 # Author Details
 author:         'Abdel Raoof Olakara'
