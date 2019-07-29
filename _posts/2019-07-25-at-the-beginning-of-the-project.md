@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Color Post
-tags: [Test, Color, Markdown]
+title: At the beginning of the Project
+tags: [project 1]
 color: brown
 ---
 
