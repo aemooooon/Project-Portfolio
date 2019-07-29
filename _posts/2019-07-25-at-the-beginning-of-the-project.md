@@ -1,3 +1,10 @@
+---
+layout: post
+title: Color Post
+tags: [Test, Color, Markdown]
+color: brown
+---
+
 期待了三年的的Project终于来到了我的面前，有一些期待，有一些惊喜，同时还有一些紧张。
 
 大三的第一天第一节课，我们的老大Adon给所有新进入项目的学生以及已经完成第一个项目，即将进入第二个项目的学生做了一个简短而全面的介绍。Adon 是一个超级聪明，大脑反应十分快，同时也很幽默的人，记得去年在一次presentation上，他说： 我不想在这里过多的详细介绍project，因为你们每个人必须都要选这个课。言下之意露出了霸气的意见。that is awesome。 it was really cool。
