@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/ppp"
+baseurl: "/app"
 url: "https://aemooooon.github.io"
 title: Aemon Project Portfolio # site's title
 description: "All of the my diary log records about Project" # used by search engines
@@ -22,7 +22,7 @@ theme_settings:
   header_text: Change header text in <code>_config.yml</code>
   header_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
-    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://aemooooon.github.io/ppp/">Project</a>
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://aemooooon.github.io/app/">Project</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
