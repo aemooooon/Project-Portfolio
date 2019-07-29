@@ -1,8 +1,8 @@
 # SITE CONFIGURATION
 baseurl: "/ppp"
 url: "https://aemooooon.github.io"
-title: Type on Strap # site's title
-description: "A website with blog posts and pages" # used by search engines
+title: Aemon Project Portfolio # site's title
+description: "All of the my diary log records about Project" # used by search engines
 
 defaults:
   - 
@@ -22,11 +22,11 @@ theme_settings:
   header_text: Change header text in <code>_config.yml</code>
   header_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
-    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://aemooooon.github.io/ppp/">Project</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: wangh21@student.op.ac.nz # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -87,7 +87,7 @@ theme_settings:
   # Open the "_sass > base" folder, and open "_variables.scss"
 
 # PAGINATION
-paginate: 5
+paginate: 20
 paginate_path: "blog/page:num"
 
 # AUTHORS
