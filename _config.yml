@@ -19,8 +19,8 @@ theme_settings:
   favicon: assets/favicon.ico
 
   # Header and footer text
-  header_text: Change header text in <code>_config.yml</code>
-  header_feature_image: assets/img/pexels/triangular.jpeg
+  header_text: Project Portfolio
+  header_feature_image: assets/img/pexels/computer.jpeg
   footer_text: >
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://aemooooon.github.io/app/">Project</a>
 
@@ -33,7 +33,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "aemooooon"
   google_plus:
   instagram:
   keybase:
@@ -97,7 +97,7 @@ authors:
     avatar: "assets/img/avatars/mhagnumdw_avatar.jpg"
     url: 
   sylhare:
-    name: Sylhare
+    name: Aemooooon
     avatar: "assets/img/avatars/sylhare_avatar.png"
     url: "https://github.com/aemooooon"
 
