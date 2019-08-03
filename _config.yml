@@ -19,7 +19,7 @@ theme_settings:
   favicon: assets/favicon.ico
 
   # Header and footer text
-  header_text: Project Portfolio
+  header_text: 2019S2 Aemon Project Portfolio
   header_feature_image: assets/img/pexels/home.jpg
   footer_text: >
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://www.aemon.wang">Project</a>
