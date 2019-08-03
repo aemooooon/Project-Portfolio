@@ -26,4 +26,12 @@ The following Topics in various directions are available for us to choose from:
 * Machine learning/artificial intelligence
 
 I have thought about what kind of project I will choose for thousands of times. ^=^
-About Operations, Because I have studied Linux, SystemAdmin, I could choose it, but this project has some problems which is need really accurate communication. unfortunately, I am not good at comunicate with English. In terms of Game development, by took Programming 4 last semester, I found that I didn't would to be like that when I was young so much love game. About LoT, because I haven't taken any courses on embedded development and robotics, I haven't studied Cisco courses on the Internet, so if putting all these things together is more difficult for me. Meanwhile, things like machine learning, I think I will find it more difficult, because I have not yet studied these courses. So 
+About Operations, Because I have studied Linux, SystemAdmin, I could choose it, but this project has some problems which is need really accurate communication. unfortunately, I am not good at comunicate with English. In terms of Game development, by took Programming 4 last semester, I found that I didn't would to be like that when I was young so much love game. About LoT, because I haven't taken any courses on embedded development and robotics, I haven't studied Cisco courses on the Internet, so if putting all these things together is more difficult for me. Meanwhile, things like machine learning, I think I will find it more difficult, because I have not yet studied these courses. finally, for me only mobile development and web development are left to choose from. I am really confident on web development, not only because I have completed the Web 3 paper, but also I have had a couple of years of Web development experience, even though the technique skills used at that time is outdated, but the basic HTTP principle is unchanged anymore.
+
+After my discussions with all the groups, classmates, and lecturer, I was asked, and I finally thought I should decide to choose mobile development. why?
+
+Firstly, I do not need take the Mobile Development Paper in the last semester, and give me a chance to take Quality Assurance and
+Software Testing paper, so I might get a cetificate, which may make it easier for me to find a job and improve the breadth of my resume after I graduate.
+
+Secondly, since I have done Web 3 paper, Adon has taught me the technique of React, and this time the Mobile Development is going to use React Native to do. I was thinking that adds to my confidence.
+
