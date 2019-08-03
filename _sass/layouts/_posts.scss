@@ -89,6 +89,7 @@ header {
     .post-content {
         @extend %padding-regular;
         padding-bottom: 0;
+        font-family: Arial, Helvetica, sans-serif;
     }
     footer {
         @extend %padding-regular;
