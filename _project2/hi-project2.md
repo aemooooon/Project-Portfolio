@@ -3,7 +3,9 @@ layout: post
 title: Hi, Project 2
 feature-img: "assets/img/portfolio/ttt.png"
 img: "assets/img/portfolio/ttt.png"
-date: July 2019
+tags: [project 2]
+date: 2019-07-25
+color: brown
 ---
 
 Hi, Welcome.
