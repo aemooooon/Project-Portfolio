@@ -22,7 +22,7 @@ theme_settings:
   header_text: Project Portfolio
   header_feature_image: assets/img/pexels/home.jpg
   footer_text: >
-    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://aemooooon.github.io/app/">Project</a>
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://www.aemon.wang">Project</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
@@ -99,7 +99,7 @@ authors:
   sylhare:
     name: Aemooooon
     avatar: "assets/img/avatars/sylhare_avatar.png"
-    url: "https://github.com/aemooooon"
+    url: "https://www.aemon.wang"
 
 # PORTFOLIO
 collections:
