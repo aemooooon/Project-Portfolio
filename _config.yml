@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/app"
+baseurl: "/"
 url: "https://www.aemon.wang"
 title: emon Project Portfolio # site's title
 description: "All of the my diary log records about Project" # used by search engines
