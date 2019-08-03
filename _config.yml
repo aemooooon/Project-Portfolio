@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
 baseurl: "/app"
 url: "https://aemooooon.github.io"
-title: Aemon Project Portfolio # site's title
+title: emon Project Portfolio # site's title
 description: "All of the my diary log records about Project" # used by search engines
 
 defaults:
@@ -20,7 +20,7 @@ theme_settings:
 
   # Header and footer text
   header_text: Project Portfolio
-  header_feature_image: assets/img/pexels/computer.jpeg
+  header_feature_image: assets/img/pexels/home.jpg
   footer_text: >
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://aemooooon.github.io/app/">Project</a>
 
@@ -51,15 +51,15 @@ theme_settings:
 
   # Sharing options
   share_buttons:
-    facebook: true
-    twitter: true
+    facebook: false
+    twitter: false
     tumblr:
     pinterest:
     pocket:
-    reddit: true
+    reddit: false
     linkedin:
     wordpress:
-    email: true
+    email: false
 
   # Scripts / Features 
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
@@ -87,7 +87,7 @@ theme_settings:
   # Open the "_sass > base" folder, and open "_variables.scss"
 
 # PAGINATION
-paginate: 20
+paginate: 7
 paginate_path: "blog/page:num"
 
 # AUTHORS
@@ -106,6 +106,12 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:name
+  project1:
+    output: true
+    permalink: /:collection/:name
+  project2:
+    output: true
+    permalink: /:collection/:name
 
 # BUILD SETTINGS
 markdown: kramdown
@@ -117,4 +123,4 @@ plugins: [jekyll-paginate, jekyll-seo-tag]
 exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea",
           "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
 # theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
+# remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github

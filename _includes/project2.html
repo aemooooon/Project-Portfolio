@@ -1,0 +1,24 @@
+<!-- Portfolio Grid Section -->
+
+<div>
+    {% for item in site.project2 %}
+    <!-- <div class="portfolio-cell">
+        <a href="{{ item.url | relative_url }}" class="portfolio-link" data-keyboard="true">
+            <div class="caption" title="{{ item.title }}">
+                <div class="caption-content">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+            </div>
+            <img src="{{ item.title | relative_url }}" class="" alt="">
+        </a>
+    </div> -->
+
+    <div>
+        <ol class="project-ul">
+            <small style="font-family: Georgia, 'Times New Roman', Times, serif">{{ item.date | date: "%-d %B %Y"}}</small>
+            <li><a href="{{ item.url | relative_url }}" data-keyboard="true">{{ item.title }}</a></li>
+        </ol>
+    </div>
+
+    {% endfor %}
+</div>
