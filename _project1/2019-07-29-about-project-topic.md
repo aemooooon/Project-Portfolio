@@ -30,3 +30,5 @@ In this process, I would like to thank all the mate and the lecturer for their p
 
 
 Next, we set up our own development environment. The lecturer Grayson and other Project 2 students also helped me. I also encountered some problems. I will record it in another post.
+
+![alt text](https://github.com/aemooooon/app/blob/master/assets/img/p/013.png?raw=true "Second Project")
