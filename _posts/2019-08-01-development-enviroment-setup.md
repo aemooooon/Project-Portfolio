@@ -8,7 +8,7 @@ date: 2019-08-01
 color: brown
 ---
 
-About development enviroment, there are two ways to implement it. Whatever IOS or Android. Expo CLI and React Native CLI.
+A good start is a general success. First, let me put the development environment up. About React Native development enviroment, there are two ways to implement it. Whatever IOS or Android. Expo CLI and React Native CLI.
 
 ## Expo CLI
 
@@ -85,6 +85,55 @@ This situation because I install the new latest version of Andriod Studio. And t
 
 
 #### debug.keystore' not found 
+```bash
+D:\GoogleDrives\2019S2\Project1\excercise-app\ExcerciseApp>react-native run-android
+info Running jetifier to migrate libraries to AndroidX. You can disable it using "--no-jetifier" flag.
+Jetifier found 855 file(s) to forward-jetify. Using 12 workers...
+info JS server already running.
+info Installing the app...
+> Task :app:validateSigningDebug FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+17 actionable tasks: 10 executed, 7 up-to-date
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:validateSigningDebug'.
+> Keystore file 'D:\GoogleDrives\2019S2\Project1\excercise-app\ExcerciseApp\android\app\debug.keystore' not found for signing config 'debug'.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s
+
+error Failed to install the app. Make sure you have the Android development environment set up: https://facebook.github.io/react-native/docs/getting-started.html#android-development-environment. Run CLI with --verbose flag for more details.Error: Command failed: gradlew.bat app:installDebug -PreactNativeDevServerPort=8081
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:validateSigningDebug'.
+> Keystore file 'D:\GoogleDrives\2019S2\Project1\excercise-app\ExcerciseApp\android\app\debug.keystore' not found for signing config 'debug'.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s
+
+    at checkExecSyncError (child_process.js:621:11)
+    at execFileSync (child_process.js:639:15)
+    at runOnAllDevices (D:\GoogleDrives\2019S2\Project1\excercise-app\ExcerciseApp\node_modules\@react-native-community\cli-platform-android\build\commands\runAndroid\runOnAllDevices.js:75:39)
+    at buildAndRun (D:\GoogleDrives\2019S2\Project1\excercise-app\ExcerciseApp\node_modules\@react-native-community\cli-platform-android\build\commands\runAndroid\index.js:169:41)
+    at D:\GoogleDrives\2019S2\Project1\excercise-app\ExcerciseApp\node_modules\@react-native-community\cli-platform-android\build\commands\runAndroid\index.js:135:12
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async Command.handleAction (D:\GoogleDrives\2019S2\Project1\excercise-app\ExcerciseApp\node_modules\react-native\node_modules\@react-native-community\cli\build\cliEntry.js:160:7)
+```
 The solution is Just download the official template put into `/android/app/`
 ```html
 https://raw.githubusercontent.com/facebook/react-native/master/template/android/app/debug.keystore

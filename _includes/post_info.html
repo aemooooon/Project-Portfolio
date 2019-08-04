@@ -15,7 +15,7 @@
     {% if avatar %}
       <img src="{{ avatar | relative_url }}">
     {% endif %}
-    <p class="meta">
+    <p class="meta" style="font-size: 0.725em; font-family: Georgia, 'Times New Roman', Times, serif;">
       {% if author_name %}{{ author_name }} - {% endif %}{{ date | date: "%B %-d, %Y" }}
     </p>
   {%- if render_url -%}</a>{%- endif -%}
