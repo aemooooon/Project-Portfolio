@@ -10,6 +10,8 @@ color: brown
 
 ___Project___, which has been looking forward to for two years, has finally come to me. There are some expectations, some surprises, and some tensions.
 
+![alt text](https://github.com/aemooooon/app/blob/master/assets/img/p/012.png?raw=true "Dual Screen Computer")
+
 This is the first session of the first day of the third year, Adon gave us a brief and comprehensive introduction to all the students who entered the project and the students who had completed the first project and were about to enter the second project. Adon is a super-smart, brain-responsive, and humorous person. I remember last year at a internal open-day presentation. He said: I don't want to present the project too much here, because each of you must choose this paper. The meaning of the words reveals a domineering and humorous opinion.
 
 
@@ -43,4 +45,6 @@ Software Testing paper, so I might get a cetificate, which may make it easier fo
 
 Secondly, since I have done Web 3 paper, Adon has taught me the technique of React, and this time the Mobile Development is going to use React Native to do. I was thinking that adds to my confidence.
 
-In the second session, Adon gave us a place for each project group, and introduced the lecturer, let us go to their respective teams. I entered the Mobile Development team led by Grayson with 6 other people. Three newbie taking Project 1, and then three people will start the Project 2. After the simple meeeting, we assigned computer, all of which are exclusive to the dual screen. It can be seen that Polytech is a very forward-looking and user-friendly school with a very good atmosphere. Later on, we started to adapt our own position, look at the documentation on react, and I started testing and learning about David's Diversity Project.
+In the second session, Adon gave us a place for each project group, and introduced the lecturer, let us go to their respective teams. I entered the Mobile Development team led by Grayson with 6 other people. Three newbies which are Isaiah Tee, Carthur Pongpatimet and me will take Project 1, and then three people will start the Project 2. After the simple meeeting, we assigned computer, all of which are exclusive to the dual screen. It can be seen that Polytech is a very forward-looking and user-friendly school with a very good atmosphere. Later on, we started to adapt our own position, look at the documentation on react, and I started testing and learning about David's Diversity Project.
+
+![alt text](https://github.com/aemooooon/app/blob/master/assets/img/p/009.png?raw=true "Dual Screen Computer")

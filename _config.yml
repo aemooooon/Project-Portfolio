@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
 baseurl: "/"
 url: "https://www.aemon.wang"
-title: emon Project Portfolio # site's title
+title: Project Portfolio # site's title
 description: "All of the my diary log records about Project" # used by search engines
 
 defaults:
@@ -22,7 +22,7 @@ theme_settings:
   header_text: 2019 S2 Aemon Project Portfolio
   header_feature_image: assets/img/pexels/home.jpg
   footer_text: >
-    Copyright &copy; 2019-2020. All Rights <a href="https://www.aemon.wang">Aemooooon</a> reserved. Templeates by <a href="https://jekyllrb.com/">Jekyll</a> 
+    Copyright &copy; 2019-2020. All Rights reserved by <a href="https://www.aemon.wang">Aemooooon</a>. Templeates by <a href="https://github.com/sylhare/Type-on-Strap" target="_blank">Jekyll</a> 
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout

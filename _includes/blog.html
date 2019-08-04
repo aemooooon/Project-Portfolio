@@ -10,15 +10,15 @@
         {% endif %}
         <span>
           <header>
-            <h1>
+            <h3>
               <a aria-label="{{ post.title }}" class="post-link" href="{{ post.url | relative_url }}">
                 {{ post.title }}
               </a>
-            </h1>
+            </h3>
             {% include post_info.html post=post %}
           </header>
           <div class="excerpt">
-              {{ post.excerpt | strip_html | escape }}
+              {{ post.excerpt | strip_html | escape | truncatewords:49 }}
           </div>
       </span>
     </div>
