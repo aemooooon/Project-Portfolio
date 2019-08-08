@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Meeting Chinese Scholarship GROUP in Project Room
+title: Meeting Chinese Scholarship Group in Project Room
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
 tags: [project 1]
@@ -8,7 +8,7 @@ date: 2019-08-08
 color: brown
 ---
 
-Today is a special day which is the autumn begins(立秋) in the traditional Chinese lunar calendar, also luch number with day and month. :)
+Today is a special day which is the autumn begins(立秋) in the traditional Chinese lunar calendar, also luck number with day and month. :)
 
 The React-Native development environment has exhausted my two weeks of patience. Various errors appeared on the both of my own computer and project room one.  But today is a good day, because I don't know somehow Adon suddenly told us that the Chinese Scholarship GROUP will visit our project class at 2 pm after our project meeting.
 
