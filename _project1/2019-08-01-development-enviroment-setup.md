@@ -144,3 +144,4 @@ Pull remote branch to local if the branch on the remote without local
 git fetch origin
 git checkout --track origin/<remote_branch_name>
 ```
+`git pull origin dev-env`
