@@ -138,3 +138,60 @@ The solution is Just download the official template put into `/android/app/`
 ```html
 https://raw.githubusercontent.com/facebook/react-native/master/template/android/app/debug.keystore
 ```
+
+
+#### SDK location not found
+```bash
+D:\prcatise>react-native run-android
+info Running jetifier to migrate libraries to AndroidX. You can disable it using "--no-jetifier" flag.
+Jetifier found 855 file(s) to forward-jetify. Using 12 workers...
+info Starting JS server...
+info Installing the app...
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> SDK location not found. Define location with an ANDROID_SDK_ROOT environment variable or by setting the sdk.dir path in your project's local properties file at 'D:\prcatise\android\local.properties'.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+
+error Failed to install the app. Make sure you have the Android development environment set up: https://facebook.github.io/react-native/docs/getting-started.html#android-development-environment. Run CLI with --verbose flag for more details.
+Error: Command failed: gradlew.bat app:installDebug -PreactNativeDevServerPort=8081
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> SDK location not found. Define location with an ANDROID_SDK_ROOT environment variable or by setting the sdk.dir path in your project's local properties file at 'D:\prcatise\android\local.properties'.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+
+    at checkExecSyncError (child_process.js:621:11)
+    at execFileSync (child_process.js:639:15)
+    at runOnAllDevices (D:\prcatise\node_modules\@react-native-community\cli-platform-android\build\commands\runAndroid\runOnAllDevices.js:74:39)
+    at buildAndRun (D:\prcatise\node_modules\@react-native-community\cli-platform-android\build\commands\runAndroid\index.js:158:41)
+    at D:\prcatise\node_modules\@react-native-community\cli-platform-android\build\commands\runAndroid\index.js:125:12
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async Command.handleAction (D:\prcatise\node_modules\react-native\node_modules\@react-native-community\cli\build\cliEntry.js:160:7)
+```
+![alt text](https://github.com/aemooooon/app/blob/master/assets/img/p/008.png?raw=true "SDK location not found")
+For this issue, it happend on the first time to run app to Android emulator, I need use Android studio open it the App. And sync gradle files and dependecy. Then it should working properly.
+
+
+#### Pull remote branch to local if the branch on the remote without local
+```
+git fetch origin
+git checkout --track origin/<remote_branch_name>
+```
+`git pull origin dev-env`
