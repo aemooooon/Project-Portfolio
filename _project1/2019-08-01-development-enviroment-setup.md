@@ -138,3 +138,9 @@ The solution is Just download the official template put into `/android/app/`
 ```html
 https://raw.githubusercontent.com/facebook/react-native/master/template/android/app/debug.keystore
 ```
+
+Pull remote branch to local if the branch on the remote without local
+```
+git fetch origin
+git checkout --track origin/<remote_branch_name>
+```
