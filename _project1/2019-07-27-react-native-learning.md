@@ -154,3 +154,8 @@ export default class LotsOfStyles extends Component {
 ```
 
 All dimensions such as width, height in React Native are unitless, and represent density-independent pixels.
+
+
+
+npm install react-navigation
+npx expo-cli install react-native-gesture-handler react-native-reanimated
