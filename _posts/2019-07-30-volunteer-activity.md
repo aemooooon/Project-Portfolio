@@ -36,4 +36,9 @@ During the period, almost five or six students hands up and asked me questions.
 
 Because of the current basic knowledge such as syntax, input and output, the use of simple operators. So even if I didn't understand it, I can see their problems at a glance. 
 
-So this makes my job easier. I am still very enjoyable. Thank you
+So this makes my job easier. I am still very enjoyable. Thank you.
+
+### update
+Aug 6, 2019. Today Krissi talked about if else statements.
+
+Aug 13, 2019. Today the topic was switch statements.
