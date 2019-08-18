@@ -189,9 +189,3 @@ BUILD FAILED in 7s
 For this issue, it happend on the first time to run app to Android emulator, I need use Android studio open it the App. And sync gradle files and dependecy. Then it should working properly.
 
 
-#### Pull remote branch to local if the branch on the remote without local
-```
-git fetch origin
-git checkout --track origin/<remote_branch_name>
-```
-`git pull origin dev-env`
