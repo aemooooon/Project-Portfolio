@@ -39,6 +39,6 @@ Because of the current basic knowledge such as syntax, input and output, the use
 So this makes my job easier. I am still very enjoyable. Thank you.
 
 ### update
-Aug 6, 2019. Today Krissi talked about if else statements.
+Aug 6, 2019. Today Krissi talked about if else statements. I feel like all concept for new programmer is not hard to understand. Every one kind of smart, but the problems is then did not create a programming pattern inside of their brain. So I think they need memorize the all basic stuff.
 
-Aug 13, 2019. Today the topic was switch statements.
+Aug 13, 2019. Today the topic was switch statements. Once again, everyone understand what the lecturer said but they still do not know how can start the lab. Most of the students put the semi clone everywhere. Hi, gusy , you need try, try ,try more...
