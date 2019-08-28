@@ -53,8 +53,8 @@ When I first time to do Drawer menu, I can only test on Android platform, but Cu
 ```javascript
     render() {
         var drawer = (
-            <ScrollView contentContainerStyle={{ flex: 1, flexDirection: 'column', backgroundColor: '#1d1d26', justifyContent: 'space-between' }}>
-                <SafeAreaView forceInset={{ top: 'always', horizontal: 'never' }}>
+            <ScrollView contentContainerStyle={ flex: 1, flexDirection: 'column', backgroundColor: '#1d1d26', justifyContent: 'space-between' }>
+                <SafeAreaView forceInset={ top: 'always', horizontal: 'never' }>
                     <View style={styles.userIconContainer}>
                         <Image
                             style={styles.userIconPlaceholder}
@@ -112,7 +112,7 @@ When I first time to do Drawer menu, I can only test on Android platform, but Cu
                     negotiatePan={false}>
                     <Header
                         leftComponent={<Icon name="menu" onPress={() => this._drawer.open()} />}
-                        centerComponent={{ text: "MAP", style: { color: '#FFF', fontSize: 25 } }}
+                        centerComponent={ text: "MAP", style: { color: '#FFF', fontSize: 25 } }
                         rightComponent={<Icon name="home" />} />
                     <Map />
                 </Drawer>
