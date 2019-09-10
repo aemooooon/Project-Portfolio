@@ -82,6 +82,7 @@ static void Main()
     int [] letterCountUpper = new int[26];
     Console.Write("Enter a sentence: ");
     phrase = Console.ReadLine();
+    
     foreach (char c in phrase)
     {
         if (upperLetters.Contains(c.ToString()))
