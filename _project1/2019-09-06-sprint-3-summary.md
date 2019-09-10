@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sprint 3 Summary
+title: The Sprint 3 Summary
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
 tags: [project 1]
