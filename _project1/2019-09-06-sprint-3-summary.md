@@ -10,6 +10,8 @@ color: brown
 
 In Sprint 3, I do the thing on Google Map Directions. When the user taped the marker which want to set a target point, the system will automacally draw a line with this routine and also calculate the distance which is from current location to the marker point, by default use walking mode, and estimate the duration time from this distance. And Carthor did the geofence polygons on different sub district in Dunedin, and also use clustering to collection one area in the current polygon area.
 
+![alt text](https://github.com/aemooooon/app/blob/master/assets/img/p/033.jpg?raw=true "sprint 3 screenshot")
+
 we had done the list of features below:
 * feature 21 - calculate distance from user to point #25  - Hua
 * feature 19 - add more geofence polygons #24  - Carthor

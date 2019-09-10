@@ -13,6 +13,8 @@ Because we have some other screens in addition to the map on the homepage, in or
 
 Carthur has been responsible for the map area geofencing feature and track the user's current location. At the same time he will be able to add Marker to the map and save position coordinate data to the database. A detailed list will be listed below:
 
+![alt text](https://github.com/aemooooon/app/blob/master/assets/img/p/035.jpg?raw=true "sprint 2 screenshot")
+
 ### Hua Wang
 * feature 14 - adding navigation bar/menu
 * feature 13 - validation for input authentication fields
