@@ -1,49 +1,53 @@
 /* ---- grid ---- */
 
 .grid {
-    padding-bottom: 6%;
-    padding-top: 1%;
+  padding-bottom: 6%;
+  padding-top: 1%;
 
-
-    /* clear fix */
-    &:after {
-        content: '';
-        display: block;
-        clear: both;
-    }
+  /* clear fix */
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
 }
 
 /* ---- .grid-item within masonry ---- */
 
 .grid-sizer,
 .grid-item {
-    /* state column width */
-    width: 32.6%;
+  /* state column width */
+  width: 32.6%;
 }
 
 .grid-item {
-    float: left;
-    border-radius: 5px;
+  float: left;
+  border-radius: 10px;
 
-    
-    img {
-        /* for image formatting in the masonry */
-        display: block;
-        max-width: 100%;
-        min-height: 30%;
-    }
+  img {
+    /* for image formatting in the masonry */
+    display: block;
+    max-width: 100%;
+    min-height: 30%;
+  }
+}
+.grid-item:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
 }
 
 /* --- Masonry gutter size --- */
 
 .gutter-sizer {
-    width: 1%;
+  width: 1%;
 }
 
 .grid-item:first-of-type {
-    margin-bottom: 1%;
+  margin-bottom: 1%;
 }
 
 .grid-item {
-    margin-bottom: 1%;
+  margin-bottom: 1%;
 }
