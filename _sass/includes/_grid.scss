@@ -18,14 +18,13 @@
 .grid-sizer,
 .grid-item {
     /* state column width */
-    // width: 30%;
+    width: 32.6%;
 }
 
 .grid-item {
     float: left;
-    // border-radius: 5px;
-    border: 5px solid #000;
-    margin: 5px;
+    border-radius: 5px;
+
     
     img {
         /* for image formatting in the masonry */
