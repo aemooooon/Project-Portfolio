@@ -2,7 +2,7 @@
 layout: page
 title: Photograph
 subtitle: From each of the post
-feature-img: "assets/img/p/036.jpg"
+feature-img: "assets/img/pexels/gallery.jpg"
 permalink: /gallery/
 gallery_path: "assets/img/p/"
 tags: [project 1]
