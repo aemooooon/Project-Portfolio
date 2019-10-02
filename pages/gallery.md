@@ -1,14 +1,13 @@
 ---
 layout: page
-title: Gallery
-subtitle: From the pexels folder
+title: Portfolio Pictures Evidence
+subtitle: From each of the post
 permalink: /gallery/
 gallery_path: "assets/img/p"
-tags: [Gallery, Photo]
+tags: [project 1]
 ---
 
-This is a photo gallery made from the static files in the `assets/img/pexels` folder. 
-I wanted to create automatically a simple gallery from a folder without having to create a markdown page as you would for the portfolio.
+This is the picture evidence of all my portfolios. I simply listed the photos here for quick and intuitive viewing. What have I done！
 
 
 {% include gallery.html gallery_path=page.gallery_path %}
