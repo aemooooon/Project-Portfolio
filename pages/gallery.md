@@ -3,7 +3,7 @@ layout: page
 title: Photograph
 subtitle: From each of the post
 permalink: /gallery/
-gallery_path: "assets/img/p"
+gallery_path: "assets/img/p/"
 tags: [project 1]
 ---
 
