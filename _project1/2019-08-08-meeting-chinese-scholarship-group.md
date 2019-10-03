@@ -3,7 +3,7 @@ layout: post
 title: Meeting Chinese Scholarship Group in Project Room
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
-tags: [project 1]
+tags: [project 1, volunteer activity]
 date: 2019-08-08
 color: brown
 ---

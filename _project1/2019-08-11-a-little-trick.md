@@ -3,7 +3,7 @@ layout: post
 title: A little trick
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
-tags: [project 1]
+tags: [project 1, technical proficiency]
 date: 2019-08-11
 color: brown
 ---

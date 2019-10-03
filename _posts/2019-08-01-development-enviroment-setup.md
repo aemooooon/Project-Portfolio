@@ -3,7 +3,7 @@ layout: post
 title: Development Enviroment Setup
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
-tags: [project 1]
+tags: [project 1, technical proficiency]
 date: 2019-08-01
 color: brown
 ---

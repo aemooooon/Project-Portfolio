@@ -3,7 +3,7 @@ layout: post
 title: Mobile Group meeting
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
-tags: [project 1]
+tags: [project 1, professional proficiency]
 date: 2019-08-26
 color: brown
 ---

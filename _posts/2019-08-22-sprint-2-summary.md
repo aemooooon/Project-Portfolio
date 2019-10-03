@@ -1,9 +1,9 @@
 ---
 layout: post
-title: The Sprint 2 summary
+title: The Sprint 2 Summary
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
-tags: [project 1]
+tags: [project 1, professional proficiency]
 date: 2019-08-22
 color: brown
 ---
@@ -12,6 +12,8 @@ We have already started the second Spinrt, after the first debrief. A total of 9
 Because we have some other screens in addition to the map on the homepage, in order to facilitate the display to the customer, but also convenient for our own debugging, the addition of navigation is imperative.
 
 Carthur has been responsible for the map area geofencing feature and track the user's current location. At the same time he will be able to add Marker to the map and save position coordinate data to the database. A detailed list will be listed below:
+
+![alt text](https://github.com/aemooooon/app/blob/master/assets/img/p/035.jpg?raw=true "sprint 2 screenshot")
 
 ### Hua Wang
 * feature 14 - adding navigation bar/menu

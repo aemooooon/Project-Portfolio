@@ -3,7 +3,7 @@ layout: post
 title: Volunteer Activity
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
-tags: [project 1]
+tags: [project 1, volunteer activity]
 date: 2019-07-30
 color: brown
 ---
@@ -112,3 +112,5 @@ static void Main()
 __Sep 10, 2019.__ review for exam.
 
 __Sep 17, 2019.__ review for exam.
+
+__Sep 24, 2019.__ Today we talked about Method as well as taught the Swap algorithm. Krissi picked up four students includes me stand up in front of the room, each one of us hands up a paper which writes a number on, and when her call one of us then change the paper also change the position. It was really vivid. After the speaking, everyone start do the labs. But I found a very interesting thing. Everyone used the static method, which is the static keyword, according to the example in the book. This remind me that the static method of water is particularly deep especially in C Sharp. I would tell thest students about instance associated. But how?

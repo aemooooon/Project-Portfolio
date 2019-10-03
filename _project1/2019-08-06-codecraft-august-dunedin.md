@@ -3,7 +3,7 @@ layout: post
 title: CodeCraft Dunedin August 2019
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
-tags: [project 1]
+tags: [project 1, volunteer activity]
 date: 2019-08-06
 color: brown
 ---

@@ -3,7 +3,7 @@ layout: post
 title: At the Beginning of the Project
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
-tags: [project 1]
+tags: [project 1, professional proficiency]
 date: 2019-07-25
 color: brown
 ---
