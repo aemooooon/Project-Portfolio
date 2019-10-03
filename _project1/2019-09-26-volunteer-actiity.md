@@ -4,7 +4,7 @@ title: Listening presentation from IamCapable
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/p/036.jpg"
 tags: [project 1]
-date: 2019-09-19
+date: 2019-09-26
 color: brown
 ---
 
