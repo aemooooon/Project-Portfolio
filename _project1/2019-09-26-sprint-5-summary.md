@@ -1,10 +1,10 @@
 ---
 layout: post
-title: The Sprint 3 Summary
+title: The Sprint 5 Summary
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
 tags: [project 1]
-date: 2019-09-12
+date: 2019-09-26
 color: brown
 ---
 
