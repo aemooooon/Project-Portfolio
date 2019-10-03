@@ -2,7 +2,7 @@
 layout: post
 title: Meeting with Year 1 Database 1 students
 feature-img: "assets/img/portfolio/cabin.png"
-img: "assets/img/p/036.jpg?"
+img: "assets/img/p/036.jpg"
 tags: [project 1]
 date: 2019-09-19
 color: brown
