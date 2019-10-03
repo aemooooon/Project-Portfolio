@@ -2,7 +2,7 @@
 layout: page
 title : Project 1
 permalink: /project1/
-subtitle: "React Native Project on Android OS" 
+subtitle: "Cross Platform Mobile Project via React Native " 
 feature-img: "assets/img/pexels/project1.jpg"
 tags: 
 ---
