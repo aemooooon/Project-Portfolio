@@ -8,7 +8,7 @@ tags:
 
 Welcome! 你好, I'm Aemooooon
 
-As a student, I am writing the blog here to record my learning experience. It's not only to the teacher's request, but also is possible to review again in case I forget it in the future. And also is a good way to practise my English writing skills. My name is Hua WANG and studying at Otago Polytech wiht Bachelor of Information Technology.
+As a student, I am writing the blog here to record my learning experience. It's not only to the teacher's assesment, but also is possible to review again in case I forget it in the future. And also is a good way to practise my English writing skills. My name is Hua WANG and studying Bachelor of Information Technology in Otago Polytech.
 
 ![alt text](https://github.com/aemooooon/app/blob/master/assets/img/p/WeChatQRcode.jpg?raw=true "Scan WeChat QRCode contact me")
 
