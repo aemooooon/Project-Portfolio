@@ -9,6 +9,7 @@ color: brown
 ---
 
 
+### defautl placeholder tag in JSX
 ```jsx
     return (
         // <View style={{ flex: 1 }}>
@@ -29,3 +30,13 @@ color: brown
         // </View>
     );
 ```
+
+### Height attribute in Android and ios
+```jsx
+import {Platform, StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  height: Platform.OS === 'ios' ? 200 : 100,
+});
+```
+Some time the view if set up the height will going to be display different between ios and android. If so need set up height to 100 on ios if the doesnot set up on the android. for example in our project workout.js screen_pause and screen_run function, the first view inside 0.00 km.
