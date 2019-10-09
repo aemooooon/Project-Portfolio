@@ -58,7 +58,7 @@ myFunc()
 
 If run this code, the string 'Hello' will display after 3 seconds, because the await will wait resolve. beside the error is true, will catch the error.
 
-There is use case example:
+There is one of the use case example:
 
 ```javascript
 async function getUsers() {
