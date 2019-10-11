@@ -8,6 +8,31 @@ date: 2019-08-11
 color: brown
 ---
 
+There are many werid circumstances when I develop that code, it is not about official documents or principles could handle it, just some way to solve the problems and comes from the experience. So this post just use to record these thing I called that litte trick.
+
+### update sub component value when parent component changing
+1. declare ref in parent component
+```jsx
+this.workout = React.createRef(); // inside of constructor
+```
+
+2. set up ref value when call sub component inside of parent component
+```jsx
+<Workout ref={this.workout} />
+
+3. call sub componet function inside of parent component when needed
+```jsx
+this.workout.current.subComponentFunction(parameter);
+```
+
+4. declare function inside of sub coponent
+```jsx
+subComponentFunction=(parameter)=>{
+    this.setState({
+        valueWeWantToUpdated: parameter
+    });
+}
+```
 
 ### defautl placeholder tag in JSX
 ```jsx
