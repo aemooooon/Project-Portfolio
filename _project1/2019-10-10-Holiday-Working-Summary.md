@@ -57,6 +57,8 @@ In this really important middle holiday, I only pay attention on Project 1 witho
 * draw the second polyline for real walking
 * separate workout operation area to subcomponent
 
+
+
 ![alt text](https://github.com/aemooooon/app/blob/master/assets/img/p/051.png?raw=true "reset password by email")
 
 
