@@ -119,5 +119,5 @@ __Oct 15, 2019.__ Today the topic is about enumeration and struct Data Types. No
 
 __Oct 22, 2019.__ Today likes a final review which put all piece of knowledges together. Students will create a struct and read each field of data from a txt file and put it to array, also to struct array. Then need search, edit one of the item. And display all of the items. I tried to do some code below:
 ```c#
-
+    Console.WriteLine("Hello Hua");
 ```
