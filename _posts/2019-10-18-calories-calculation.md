@@ -8,7 +8,7 @@ date: 2019-10-18
 color: brown
 ---
 
-About calories calculation there is a fomular according to [Wikepedia]('https://en.wikipedia.org/wiki/Metabolic_equivalent_of_task') states it. But the first thing I need to do is how to get Metabolic equivalent of task. The thing do not calculate by any fomular, only have a eastmate value in different exercise by different speed. So I just found some base value from the essey such as the [The Compendium of Physical Activities Tracking Guide]('http://prevention.sph.sc.edu/tools/docs/documents_compendium.pdf') below. In this case, I just pick up some value I needed it, but if we keen to get the algorithm higher level, I can improve it by some other way such as helper database or JSON or some component. Holpfully I can do that in the future.
+About calories calculation there is a fomular according to [Wikepedia](https://en.wikipedia.org/wiki/Metabolic_equivalent_of_task) states it. But the first thing I need to do is how to get Metabolic equivalent of task. The thing do not calculate by any fomular, only have a eastmate value in different exercise by different speed. So I just found some base value from the essey such as the [The Compendium of Physical Activities Tracking Guide](http://prevention.sph.sc.edu/tools/docs/documents_compendium.pdf) below. In this case, I just pick up some value I needed it, but if we keen to get the algorithm higher level, I can improve it by some other way such as helper database or JSON or some component. Holpfully I can do that in the future.
 
     // MET values ref: December 2004(Reviewed 011 / 09) 2004, University of Colorado Hospital, Denver
     // http://www.ucdenver.edu/academics/colleges/medicine/sportsmed/cusm_patient_resources/Documents/Estimating%20Energy%20Expenditure.pdf
