@@ -117,7 +117,68 @@ __Sep 24, 2019.__ Today we talked about Method as well as taught the Swap algori
 
 __Oct 15, 2019.__ Today the topic is about enumeration and struct Data Types. Nothing new, I thought that thest topic just for assignment prerequisit.
 
-__Oct 22, 2019.__ Today likes a final review which put all piece of knowledges together. Students will create a struct and read each field of data from a txt file and put it to array, also to struct array. Then need search, edit one of the item. And display all of the items. I tried to do some code below:
+__Oct 22, 2019.__ Today likes a final review which put all piece of knowledges together. Students will create a struct and read each field of data from a txt file and put it to array, also to struct array. Then need search, edit one of the item. And display all of the items. I tried to do some code to some nice students below:
 ```c#
-    Console.WriteLine("Hello Hua");
+using System;
+using System.IO;
+
+namespace ConsoleApp1
+{
+    public struct Student
+    {
+        public string lastName;
+        public string firstName;
+        public string address;
+        public int team;
+    }
+
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Student[] students = readFile(@"./names2.txt");
+            displayStudents(students);
+            writeFile(students);
+            Console.ReadLine();
+        }
+
+        public static Student[] readFile(string fileName)
+        {
+            StreamReader sr = new StreamReader(fileName);
+            Random r = new Random();
+            string[] tempStr = sr.ReadToEnd().Split('\r');
+            Student[] students = new Student[tempStr.Length / 2];
+            for (int i = 0; i < tempStr.Length; i += 2)
+            {
+                for (int j = i / 2; j < tempStr.Length / 2; j++)
+                {
+                    students[j].firstName = tempStr[i].Trim('\n');
+                    students[j].lastName = tempStr[i + 1].Trim('\n');
+                    students[j].address = "Dunedin";
+                    students[j].team = r.Next(1, 5);
+                }
+            }
+            return students;
+        }
+
+        public static void displayStudents(Student[] students)
+        {
+            Console.WriteLine("Team".PadRight(10) + "First Name".PadRight(15) + "Last Name".PadRight(25) + "Address".PadRight(37));
+            for (int i = 0; i < students.Length; i++)
+            {
+                Console.WriteLine(students[i].team.ToString().PadRight(10) + students[i].firstName.PadRight(15) + students[i].lastName.PadRight(25) + students[i].address.PadRight(37));
+            }
+        }
+
+        public static void writeFile(Student[] students)
+        {
+            StreamWriter sw = new StreamWriter(@"ourClass.txt");
+            for (int i = 0; i < students.Length; i++)
+            {
+                sw.WriteLine($"{students[i].team}  {students[i].firstName}  {students[i].lastName}  {students[i].address}");
+            }
+            sw.Close();
+        }
+    }
+}
 ```
