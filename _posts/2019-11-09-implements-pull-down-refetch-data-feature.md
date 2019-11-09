@@ -103,7 +103,7 @@ export default class MyRecordsScreen extends Component {
             <SafeAreaView>
                 <Header
                     leftComponent={<AntDesign name='arrowleft' onPress={() => this.props.navigation.goBack()} size={32} color='white' />}
-                    centerComponent={{ text: 'My Records', style: { color: '#FFF', fontSize: 25 } }} />
+                    centerComponent={{ text: 'My Records' }} />
                 <View style={styles.tableHead}>
                     <Text style={styles.headRows}>Date</Text>
                     <Text style={styles.headRows}>Mode</Text>
