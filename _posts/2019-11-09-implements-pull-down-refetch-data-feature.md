@@ -51,7 +51,7 @@ export default class MyRecordsScreen extends Component {
             if (!error) {
                 resolve();
             } else {
-                reject("Something went wroing");
+                reject('Something went wroing');
             }
         });
     }
@@ -102,9 +102,8 @@ export default class MyRecordsScreen extends Component {
         return (
             <SafeAreaView>
                 <Header
-                    leftComponent={<AntDesign name="arrowleft" onPress={() => this.props.navigation.goBack()} size={32} color="white" />}
-                    centerComponent={{ text: "My Records", style: { color: '#FFF', fontSize: 25 } }} />
-                {/* <Text style={styles.title}> Exercise log </Text> */}
+                    leftComponent={<AntDesign name='arrowleft' onPress={() => this.props.navigation.goBack()} size={32} color='white' />}
+                    centerComponent={{ text: 'My Records', style: { color: '#FFF', fontSize: 25 } }} />
                 <View style={styles.tableHead}>
                     <Text style={styles.headRows}>Date</Text>
                     <Text style={styles.headRows}>Mode</Text>
@@ -163,7 +162,6 @@ const styles = StyleSheet.create({
         height: 40,
         lineHeight: 40,
         fontWeight: 'bold',
-        // color: '#48cfad'
     }
 })
 ```
