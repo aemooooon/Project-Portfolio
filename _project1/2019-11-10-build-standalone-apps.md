@@ -16,7 +16,7 @@ Almost done this semester, also it is the project 1 done time. I need try to bui
 3. Needing a Expo account.
 
 ### Processes
-1. configurates app.json, app name, version and android package...
+* configurates app.json, app name, version and android package...
 
 ```json
 {
@@ -53,7 +53,7 @@ Almost done this semester, also it is the project 1 done time. I need try to bui
   }
 }
 ```
-2. running command with `expo build:android` to start building. During this need to login with expo account
+* running command with `expo build:android` to start building. During this need to login with expo account
 
 ```bash
 An Expo user account is required to proceed.
@@ -76,7 +76,7 @@ Set EXPO_DEBUG=true in your env to view the stack trace.
 ```
 To sovle this error just run command with `Set EXPO_DEBUG=true` on the bash and restart it. In the same time, it needs start app use expo start which I use Visual studio code
 
-3. wait to building
+* wait to building
 
 ```bash
 Publishing to channel default...
@@ -110,7 +110,7 @@ Waiting for build to complete. You can press Ctrl+C to exit.
 Successfully built standalone app: https://expo.io/artifacts/23369479-bbc6-4313-bef6-b418380a3f41
 ```
 
-4. about Google Map API not found error make sure app.json added the api key in the section of Android or ios
+* about Google Map API not found error make sure app.json added the api key in the section of Android or ios
 
 ```bash
 "android": {
