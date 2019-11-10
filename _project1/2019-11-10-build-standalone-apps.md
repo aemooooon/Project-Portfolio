@@ -17,6 +17,7 @@ Almost done this semester, also it is the project 1 done time. I need try to bui
 
 ### Processes
 1. configurates app.json, app name, version and android package...
+
 ```json
 {
   "expo": {
@@ -75,7 +76,8 @@ Set EXPO_DEBUG=true in your env to view the stack trace.
 ```
 To sovle this error just run command with `Set EXPO_DEBUG=true` on the bash and restart it. In the same time, it needs start app use expo start which I use Visual studio code
 
-3. wait to building...
+3. wait to building
+
 ```bash
 Publishing to channel default...
 Building iOS bundle
@@ -109,6 +111,7 @@ Successfully built standalone app: https://expo.io/artifacts/23369479-bbc6-4313-
 ```
 
 4. about Google Map API not found error make sure app.json added the api key in the section of Android or ios
+
 ```bash
 "android": {
    "package": "com.codingmechanic.mapcuny",
