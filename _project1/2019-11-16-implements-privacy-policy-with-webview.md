@@ -8,7 +8,7 @@ date: 2019-11-16
 color: brown
 ---
 
-About Privacy Policy, I have try to edit the content as a standard HTML and difines as JavaScript object to put inside the View by a third component which is called react-native-render-html. It is working, but realy ugly as well as not flexable. I've do some research found thera are a way could do better, but need a web page to support. So I just createa a GitHub repository pages just for this kind of job. [FitsGo Privacy Policy]('https://aemooooon.github.io/FitsGoPrivacyPolicy/')
+About Privacy Policy, I have try to edit the content as a standard HTML and difines as JavaScript object to put inside the View by a third component which is called react-native-render-html. It is working, but realy ugly as well as not flexable. I've do some research found thera are a way could do better, but need a web page to support. So I just createa a GitHub repository pages just for this kind of job. [FitsGo Privacy Policy](https://aemooooon.github.io/FitsGoPrivacyPolicy/)
 
 ![alt text](https://github.com/aemooooon/app/blob/master/assets/img/p/058.png?raw=true "compare to two ways")
 ![alt text](https://github.com/aemooooon/app/blob/master/assets/img/p/059.png?raw=true "compare to two ways")
