@@ -32,7 +32,7 @@ const htmlContent = `
 <>
     <Header
         leftComponent={<AntDesign name="arrowleft" onPress={() => this.props.navigation.goBack()} size={32} color="white" />}
-        centerComponent={{ text: "Privacy Policy", style: { color: '#FFF', fontSize: 25 } }}
+        centerComponent={{ text: "Privacy Policy" }}
     />
     {/* <ScrollView style={[styles.container]}>
         <HTML html={htmlContent} imagesMaxWidth={Dimensions.get('window').width-50} />
